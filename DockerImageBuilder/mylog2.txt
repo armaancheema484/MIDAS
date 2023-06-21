@@ -1,0 +1,45 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (0/0)                                                         
+[?25h[1A[0G[?25l[+] Building 0.0s (1/2)                                                         
+[36m => [internal] load build definition from abc                              0.0s
+[0m[36m => => transferring dockerfile: 456B                                       0.0s
+[0m => [internal] load .dockerignore                                          0.0s
+[36m => => transferring context: 2B                                            0.0s
+[0m[?25h[1A[1A[1A[1A[1A[0G[?25l[+] Building 0.1s (10/10) FINISHED                                              
+[36m => [internal] load build definition from abc                              0.0s
+[0m[36m => => transferring dockerfile: 456B                                       0.0s
+[0m[36m => [internal] load .dockerignore                                          0.0s
+[0m[36m => => transferring context: 2B                                            0.0s
+[0m[36m => [internal] load metadata for docker.io/library/ubuntu:latest           0.0s
+[0m[36m => [1/5] FROM docker.io/library/ubuntu:latest                             0.0s
+[0m[36m => [internal] load build context                                          0.0s
+[0m[36m => => transferring context: 45B                                           0.0s
+[0m[36m => CACHED [2/5] WORKDIR /MIDAS                                            0.0s
+[0m[36m => CACHED [3/5] COPY sample-input.midas.json .                            0.0s
+[0m[36m => CACHED [4/5] COPY sample-input.midas.json /MIDAS/MIDAS/sample-input.m  0.0s
+[0m[36m => CACHED [5/5] RUN apt-get update &&    apt-get install -y python3 gcc   0.0s
+[0m[36m => exporting to image                                                     0.0s
+[0m[36m => => exporting layers                                                    0.0s
+[0m[36m => => writing image sha256:129a10b7f8ed824117c625fe37de27ccff1d44d89c15a  0.0s
+[0m[36m => => naming to docker.io/library/helloworld2:latest                      0.0s
+[0m[?25h
