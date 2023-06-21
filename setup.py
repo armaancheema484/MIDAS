@@ -8,7 +8,7 @@ setup(
   author = 'Armaan Cheema',                   # Type in your name
   author_email = 'armaancheema484@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/armaancheema484/MIDAS',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/armaancheema484/MIDAS/archive/v_01.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/armaancheema484/MIDAS/archive/refs/tags/v_1.tar.gz',    # I explain this later on
   keywords = ['BUILDER', 'IMAGE', 'DOCKER'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'validators',
